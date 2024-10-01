@@ -11,6 +11,7 @@ Handling Null Values:
 Checked for missing or incomplete data, particularly in the Status (Developing/Developed) and Life Expectancy columns.
 Updated missing Status values by referencing countries with known Developed or Developing statuses. This was done through self-joins and pattern matching.
 For rows with missing Life Expectancy, a method was used to estimate values based on the average life expectancy of adjacent years (Year - 1 and Year + 1) for the same country.
+
 **2. Exploratory Data Analysis (EDA)**
 
 Life Expectancy Trends:
